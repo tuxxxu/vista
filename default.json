@@ -1,0 +1,66 @@
+{
+    "info": {
+        "name": "",
+        "description": ""
+    },
+    "camera": {
+        "model": "",
+        "lens": "",
+        "focal_length_mm": 0,
+        "aperture_f_stop": 0,
+        "iso": 0,
+        "shutter_speed_s": "",
+        "aspect_ratio": ""
+    },
+    "style": {
+        "color_palette": "",
+        "lut": "",
+        "era_year": 0,
+        "trend": "",
+        "aesthetic": "",
+        "filter": ""
+    },
+    "environment": {
+        "location": "",
+        "indoor_outdoor": "",
+        "weather": "",
+        "time_of_day": "",
+        "temperature_c": 0,
+        "atmosphere": "",
+        "lighting_type": ""
+    },
+    "subject": {
+        "person_count": 0,
+        "pose": "",
+        "expression": "",
+        "clothing": "",
+        "accessories": "",
+        "makeup": "",
+        "skin_texture": "",
+        "hairstyle": ""
+    },
+    "composition": {
+        "framing": "",
+        "perspective": "",
+        "balance": "",
+        "focal_point": "",
+        "rule_of_thirds": false,
+        "depth_of_field": 0,
+        "motion_blur": ""
+    },
+    "effects": {
+        "color_grade": "",
+        "grain": 0,
+        "vignette": 0,
+        "glow": 0,
+        "reflection": "",
+        "overlay": ""
+    },
+    "mood": {
+        "emotion": "",
+        "vibe": "",
+        "atmosphere": "",
+        "concept": "",
+        "narrative": ""
+    }
+}
