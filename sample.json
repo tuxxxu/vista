@@ -1,66 +1,64 @@
 {
     "info": {
-        "name": "Cinematic Street Stillness",
-        "description": "A cinematic overhead shot of a lone subject standing still on a brick city sidewalk while a motion-blurred crowd rushes past. Moody lighting with a 35mm film look, shallow depth of field, and nostalgic atmosphere."
+        "name": "Wes Anderson Inspired Scene",
+        "description": "A whimsical symmetrical scene with pastel tones, vintage props, and precise composition reminiscent of Wes Anderson's cinematic style."
     },
     "camera": {
-        "model": "analog 35mm film",
-        "lens": "35mm",
-        "focal_length_mm": 35,
-        "aperture_f_stop": 1.8,
-        "iso": 400,
-        "shutter_speed_s": "1/60",
+        "model": "Arriflex 235",
+        "lens_type": "prime",
+        "focal_length": 35,
+        "fstop": 5.6,
+        "iso": 200,
+        "shutter_speed": "1/60",
         "aspect_ratio": "4:3"
     },
     "style": {
-        "color_palette": "muted cinematic tones",
-        "lut": "35mm film stock",
-        "era_year": 1995,
-        "trend": "cinematic street photography",
-        "aesthetic": "moody realistic",
-        "filter": "film grain"
+        "palette": "pastel_vintage",
+        "lut": "cinematic_soft",
+        "year": 1970,
+        "aesthetic": "symmetrical_whimsical",
+        "engine": "any"
     },
     "environment": {
-        "location": "city sidewalk with brick pavement",
-        "indoor_outdoor": "outdoor",
-        "weather": "clear evening",
-        "time_of_day": "dusk",
-        "temperature_c": 18,
-        "atmosphere": "urban crowded",
-        "lighting_type": "moody natural light with artificial streetlights"
+        "location": "interior_studio",
+        "outdoor": false,
+        "timeofday": "afternoon",
+        "weather": "sunny",
+        "setting": "indoor"
     },
-    "subject": {
-        "person_count": 1,
-        "pose": "standing still, head slightly turned to the right",
-        "expression": "neutral introspective",
-        "clothing": "dark oversized sweater",
-        "accessories": "glasses, piercings",
-        "makeup": "none",
-        "skin_texture": "natural",
-        "hairstyle": "same as reference photo"
+    "lighting": {
+        "type": "key",
+        "direction": "frontal",
+        "intensity": 60,
+        "temperature": 5600,
+        "color": "warm",
+        "softness": "soft",
+        "contrast": "medium",
+        "shadows": "soft"
+    },
+    "character": {
+        "pose": "standing",
+        "expression": "neutral",
+        "clothing": "vintage_formal",
+        "makeup": "natural",
+        "hairstyle": "styled"
     },
     "composition": {
-        "framing": "overhead shot",
-        "perspective": "slightly above, cinematic",
-        "balance": "subject centered, crowd around in motion",
-        "focal_point": "the person",
-        "rule_of_thirds": false,
-        "depth_of_field": 1.2,
-        "motion_blur": "crowd blurred, subject sharp"
+        "framing": "medium_shot",
+        "perspective": "eye_level",
+        "focal_point": "center",
+        "rule_of_thirds": true,
+        "motion_blur": "none"
     },
     "effects": {
-        "color_grade": "cinematic teal and orange undertones",
-        "grain": 0.6,
-        "vignette": 0.3,
-        "glow": 0.0,
+        "color_grade": "cinematic",
+        "grain": 10,
+        "vignette": 15,
+        "glow": 5,
         "reflection": "none",
-        "overlay": "film scratches subtle"
-    },
-    "mood": {
-        "emotion": "isolation amidst chaos",
-        "vibe": "cinematic nostalgic",
-        "atmosphere": "urban melancholy",
-        "concept": "contrast between stillness and motion",
-        "narrative": "a lone figure stands calm while the world rushes by"
+        "lens_flare": "subtle",
+        "dust": "low",
+        "fog": "none",
+        "light_leak": "subtle"
     }
 }

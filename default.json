@@ -5,47 +5,49 @@
     },
     "camera": {
         "model": "",
-        "lens": "",
-        "focal_length_mm": 0,
-        "aperture_f_stop": 0,
+        "lens_type": "",
+        "focal_length": 0,
+        "fstop": 0,
         "iso": 0,
-        "shutter_speed_s": "",
+        "shutter_speed": "",
         "aspect_ratio": ""
     },
     "style": {
-        "color_palette": "",
+        "palette": "",
         "lut": "",
-        "era_year": 0,
-        "trend": "",
+        "year": 0,
         "aesthetic": "",
-        "filter": ""
+        "engine": ""
     },
     "environment": {
         "location": "",
-        "indoor_outdoor": "",
+        "outdoor": true,
+        "timeofday": "",
         "weather": "",
-        "time_of_day": "",
-        "temperature_c": 0,
-        "atmosphere": "",
-        "lighting_type": ""
+        "setting": ""
     },
-    "subject": {
-        "person_count": 0,
+    "lighting": {
+        "type": "",
+        "direction": "",
+        "intensity": 0,
+        "temperature": 0,
+        "color": "",
+        "softness": "",
+        "contrast": "",
+        "shadows": ""
+    },
+    "character": {
         "pose": "",
         "expression": "",
         "clothing": "",
-        "accessories": "",
         "makeup": "",
-        "skin_texture": "",
         "hairstyle": ""
     },
     "composition": {
         "framing": "",
         "perspective": "",
-        "balance": "",
         "focal_point": "",
         "rule_of_thirds": false,
-        "depth_of_field": 0,
         "motion_blur": ""
     },
     "effects": {
@@ -54,13 +56,9 @@
         "vignette": 0,
         "glow": 0,
         "reflection": "",
-        "overlay": ""
-    },
-    "mood": {
-        "emotion": "",
-        "vibe": "",
-        "atmosphere": "",
-        "concept": "",
-        "narrative": ""
+        "lens_flare": "",
+        "dust": "",
+        "fog": "",
+        "light_leak": ""
     }
 }
